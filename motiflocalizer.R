@@ -1,3 +1,7 @@
+#! usr/bin/env python3
+# Author Gaurav 
+# Universitat Potsdam
+
 library(stringr)
 suppressPackageStartupMessages(library(Biostrings, pos = "package:base"))
 motiflocalizer <- function(fasta_files, motif_pattern){
